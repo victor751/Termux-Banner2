@@ -71,3 +71,4 @@ banner
 sub-banner
 input
 script
+echo "${VERD} [ ${ROSA}~ ]${AZUL} O BANNER FOI ADICIONADO COM SUCESSO! ${VERD}[ ${ROSA}~ ]
