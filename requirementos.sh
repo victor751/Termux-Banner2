@@ -58,12 +58,12 @@ config_cowsay() {
 	{ sleep 1; clear; config; }
 		echo ""
 		{ sleep 2; }
-		if [[ -e /data/data/com.termux/files/home/Termux-Banner2/cowsay ]]; then
+		if [[ -e /data/data/com.termux/files/home/Termux-Banner2/cowsay01.cow ]]; then
 			echo ""
         		echo "${VERD}[ ${AZUL}+ ${VERD}] ADICIONANDO NOVOS COWSAYS ${VERD}[ ${AZUL}- ${VERD}]${AZUL}"
 			{ sleep 2; }
 			echo ""
-			cp cowsay/* /data/data/com.termux/files/usr/share/cowsay/cows
+			cp cowsay01.cow /data/data/com.termux/files/usr/share/cowsay/cows
 			echo "${VERD}[ ${AZUL}+ ${VERD}]${ROSA} ADICIONADOS COM SUCESSO! ${VERD}[ ${AZUL}- ${VERD}]${AZUL}"
 			{ sleep 2; clear; }
 		fi
