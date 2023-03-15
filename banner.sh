@@ -52,6 +52,8 @@ input() {
 
 	read -p "${AZUL} INFORME O NOME PARA SEU BANNER: ${VERD}" BANNER
 	{ sleep 1; echo ""; }
+
+        echo "${VERD} [ ${ROSA}~ ]${AZUL} O BANNER FOI ADICIONADO COM SUCESSO! ${VERD}[ ${ROSA}~ ]"
 }
 
 script() {
@@ -60,8 +62,8 @@ script() {
 	echo ""
 	echo "clear" > clear.txt
 	cat clear.txt >> /data/data/com.termux/files/usr/etc/bash.bashrc
+        ls
 	cat cowsay.txt >> /data/data/com.termux/files/usr/etc/bash.bashrc
-	ls
 	cat figlet.txt >> /data/data/com.termux/files/usr/etc/bash.bashrc
 }
 
@@ -71,4 +73,3 @@ banner
 sub-banner
 input
 script
-echo "${VERD} [ ${ROSA}~ ]${AZUL} O BANNER FOI ADICIONADO COM SUCESSO! ${VERD}[ ${ROSA}~ ]
