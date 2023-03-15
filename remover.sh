@@ -24,7 +24,7 @@ trap exit_on_signal_SIGTERM SIGTERM
 
 remover_banner() {
 	echo ""
-	echo "${AZUL} REMOVENDO 'TERMUX-BANNER2' ..."
+	echo "${AMAR} REMOVENDO 'TERMUX-BANNER2' ..."
 	{ sleep 2; }
 	cd $HOME
 	if [[ -e Termux-Banner2 ]]; then
@@ -35,16 +35,18 @@ remover_banner() {
 	echo "${VERD} O TERMUX-BANNER2 FOI REMOVIDO!"
 	{ sleep 1; }
 	echo ""
-	echo "${AZUL} REMOVENDO 'BASH.BASHRC' ..."
+	echo "${AMAR} REMOVENDO 'BASH.BASHRC' ..."
 	if [[ -e /data/data/com.termux/files/usr/etc/bash.bashrc ]]; then
 		rm -rfv /data/data/com.termux/files/usr/etc/bash.bashrc
 		{ sleep 2; }
 		echo ""
 		echo ""
 		echo "${VERD} O BASH.BASHRC FOI REMOVIDO!"
-		{ sleep 2; }
+		echo ""
+                { sleep 2; }
 	fi
-	if [[ -e /data/data/com.termux/files/home/Termux-Banner2/bash.bashrc ]]; then
+        echo "${BRAN} AGUARDE SO MAIS UM POUCO..."
+	if [[ -e /data/data/com.termux/files/home/Termux-Banner2 ]]; then
 		cp /data/data/com.termux/files/home/Termux-Banner2/bash.bashrc /data/data/com.termux/files/usr/etc/
 		echo "${AZUL} SAIA E ENTRE NO TERMUX OU ABRA UMA NOVA SESSÃO!"
 	fi
