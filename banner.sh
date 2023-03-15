@@ -55,7 +55,7 @@ input() {
 }
 
 script() {
-	echo "cowsay -f cowsay03 "$NOME" | lolcat" > cowsay.txt
+	echo "cowsay -f cowsay01 "$NOME" | lolcat" > cowsay.txt
 	echo "toilet -f big "$BANNER" -F gay | lolcat" > figlet.txt
 	echo ""
 	echo "clear" > clear.txt
