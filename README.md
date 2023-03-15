@@ -9,7 +9,7 @@
 # PARA BAIXAR ESSE DIRETÓRIO NO TERMUX:
 # USE OS COMANDOS ABAIXO:
 
-1) git clone https://github.com/victor751/Termux-Banner2
+    1) git clone https://github.com/victor751/Termux-Banner2
          
 	2) cd Termux-Banner2
 	
