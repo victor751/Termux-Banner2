@@ -44,7 +44,7 @@ remover_banner() {
 		echo "${VERD} O BASH.BASHRC FOI REMOVIDO!"
 		{ sleep 2; }
 	fi
-	if [[ -e /data/data/com.termux/files/home/Termux-Banner2/.bash.bashrc ]]; then
+	if [[ -e /data/data/com.termux/files/home/Termux-Banner2/bash.bashrc ]]; then
 		cp /data/data/com.termux/files/home/Termux-Banner2/bash.bashrc /data/data/com.termux/files/usr/etc/
 		echo "${AZUL} SAIA E ENTRE NO TERMUX OU ABRA UMA NOVA SESSÃO!"
 	fi
