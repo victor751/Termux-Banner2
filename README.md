@@ -6,16 +6,18 @@
 	# - - - - - - - - - - #
 
 
-# DEPOIS DE CLONAR O DIRETÓRIO NO TERMUX:
+# PARA BAIXAR ESSE DIRETÓRIO NO TERMUX:
 # USE OS COMANDOS ABAIXO:
 
-	1) cd Termux-Banner2
+        1) git clone https://github.com/victor751/Termux-Banner2
+         
+	2) cd Termux-Banner2
 	
-	2) chmod +x *
+	3) chmod +x *
 
-	3) bash requirementos.sh
+	4) bash requirementos.sh
 
-	4) bash banner.sh
+	5) bash banner.sh
 
 
 
