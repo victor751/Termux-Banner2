@@ -182,6 +182,7 @@ ruby() {
 		${ROSA}▐▌ ▐▌▝█▄█▘▐▙▄▟▌  █
 		${ROSA}▝▘ ▝▀ ▝▀▘ ▝▀▀▀   ▀
 		${ROSA}
+        EOF
 }
 
 instalar
