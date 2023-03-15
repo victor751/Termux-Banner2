@@ -36,7 +36,7 @@ remover_banner() {
 	{ sleep 1; }
 	echo ""
 	echo "${AMAR} REMOVENDO 'BASH.BASHRC' ..."
-	if [[ -e /data/data/com.termux/files/usr/etc/bash.bashrc ]]; then
+        if [[ -e /data/data/com.termux/files/usr/etc/bash.bashrc ]]; then
 		rm -rfv /data/data/com.termux/files/usr/etc/bash.bashrc
 		{ sleep 2; }
 		echo ""
@@ -44,12 +44,12 @@ remover_banner() {
 		echo "${VERD} O BASH.BASHRC FOI REMOVIDO!"
 		echo ""
                 { sleep 2; }
-	fi
-        echo "${BRAN} AGUARDE SO MAIS UM POUCO..."
-	if [[ -e /data/data/com.termux/files/home/Termux-Banner2 ]]; then
-		cp /data/data/com.termux/files/home/Termux-Banner2/bash.bashrc /data/data/com.termux/files/usr/etc/
-		echo "${AZUL} SAIA E ENTRE NO TERMUX OU ABRA UMA NOVA SESSÃO!"
-	fi
+                echo "${BRAN} AGUARDE SO MAIS UM POUCO..."
+	                if [[ -e /data/data/com.termux/files/home/Termux-Banner2 ]]; then
+		        cp /data/data/com.termux/files/home/Termux-Banner2/bash.bashrc /data/data/com.termux/files/usr/etc/
+		        echo "${AZUL} SAIA E ENTRE NO TERMUX OU ABRA UMA NOVA SESSÃO!"
+	                fi
+        fi
 }
 
 
