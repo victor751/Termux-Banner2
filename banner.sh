@@ -2,7 +2,7 @@
 
 { clear; }
 
-
+BRAN="$(printf '\033[1;37m')"
 ROSA="$(printf '\033[1;35m')"
 VERM="$(printf '\033[1;31m')"
 VERD="$(printf '\033[1;32m')"
@@ -43,6 +43,7 @@ sub-banner() {
 	echo "${ROSA}         FEITO POR${CEAN}: ${VERD}VICTOR SILVA"
 	echo ""
 	echo ""
+        echo ""
 
 }
 
@@ -53,7 +54,8 @@ input() {
 	read -p "${AZUL} INFORME O NOME PARA SEU BANNER: ${VERD}" BANNER
 	{ sleep 1; echo ""; }
 
-        echo "${VERD} [ ${ROSA}~ ]${AZUL} O BANNER FOI ADICIONADO COM SUCESSO! ${VERD}[ ${ROSA}~ ]"
+        echo ""
+        echo "${VERD} [ ${ROSA}~ ${VERD}]${CEAN} O BANNER FOI ADICIONADO COM SUCESSO! ${VERD}[ ${ROSA}~ ${VERD}] ${BRAN}"
 }
 
 script() {
